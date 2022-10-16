@@ -1,0 +1,7 @@
+{% macro preview(title, description, released, pills, permalink) %}
+<h3>{{ title }}</h3>
+<p>{{ description }}</p>
+<p>{{ released }}</p>
+<div>{% for pill in pills %} <span>{{pill}}</span> {% endfor %}</div>
+<a href="{{ permalink | safe }}">Read more</a>
+{% endmacro preview%}
