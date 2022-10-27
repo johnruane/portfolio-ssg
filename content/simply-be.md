@@ -1,28 +1,64 @@
 +++
 title = "SimplyBe"
 date = 2013-01-01
-description = "Fully responsive rebuild of the UK website, optimised for Mobile and Tablet devices."
 
 [extra]
+short_description = "New adaptive frontend rebuild with focus on improving user experience, modularising codebase & adhering to coding & accessibility standards."
 group = "work"
-released = "Released 2013"
-pills = ["Tablet", "Adaptive", "UX", "Agile"]
+released = "Released 2015"
+pills = ["Tablet", "Adaptive", "UX", "Wireframing", "Card sorting", "Focus groups", "User profiling", "Agile"]
 +++
 
-Introduction
-After the success of the mobile optimisation project the focus moved to the second most popular device for browsing our websites - the tablet. In 2011 the team split into two: one group would work carry on optimising the mobile experience and offer bug fixing and support, whilst the other team followed the same planning and execution we had used for mobile to start optimising for tablet devices.
-The tablet was again a new device to the team therefore we used customer testing to review designs and get live feedback from our customers. It also allowed us to listen to their thinking whilst they navigated the designs, which gave us a deeper insight.
+2014 - 2016
 
-Traffic on Tablet devices accounts for 66% of sales.
+#### Role
+UI / UX Designer
 
-Approach to the design
-The front end design was a mixture of Photoshop mockups and prototypes. Myself and the business were still most comfortable with producing and reviewing flat photoshop mockups. They were quick to produce and review, but the downside was they didnt show the screen at all widths - this did lead to some unexpected outcomes.
-A lot of the early designs were to see what features to bring across from the desktop and what features we could afford to lose in order to optimise the tablet experience for the user.
-Build decisions
-The build was a typical browser/Dreamweaver affair. As this was a new frontend it allowed us to optimise the CSS and HTML code and clear out all the dead code that had built up in the older site.
-The build was again first done on the pages that provided the business and customer the most benefit ie. checkout, product details etc. This again was an Agile project so we could gradually release new functionality as and when it was ready.
-Testing strategy
-We tested a lot of designs in Customer Groups. This was another first-time project for the whole team, so we were learning as we were doing. Getting feedback from our customers meant the designs we not subjective.
-Typical user journeys were asked of our test groups and we would observe them through a one-way mirror. Questions could also be asked at the end of the sessions if we wanted to understand a particular decision or action.
+---
+> Traffic on Tablet devices accounted for 66% of online sales.
+---
 
-Abandon rates have dropped by over 4%.
+### Design
+
+The front end design was created using a combination of Photoshop mockups and prototypes.
+
+A lot of the early designs were aimed at determining which features to bring over from the desktop and which we could afford to lose in order to optimise the tablet experience for the user.
+
+---
+> Ofcom report finds number of people over 65 years old using tablets jumped from 5% to 17% between 2012 and 2013
+---
+
+### Build
+
+The build was completed first on the pages that provided the most benefit to the business and customers, such as checkout, product details, and so on.
+
+This was another Agile project, so we could gradually release new functionality as it became available.
+
+---
+> Abandon rates dropped by over 4%.
+---
+
+### Test
+
+In Customer Groups, we tested numerous designs. This was yet another first-time project for the entire team, so we were all learning as we went. Receiving feedback from our customers ensured that the designs were not subjective.
+
+We asked our test groups to perform typical user journeys, which we observed through a one-way mirror. If we wanted to understand a specific decision or action, we could also ask questions at the end of the sessions.
+
+---
+> TODO
+---
+
+### Challenges 
+
+They were quick to create and review, but the downside was that they didn't show the screen at all widths, which resulted in some unexpected results.
+
+---
+> TODO
+---
+
+### Likes
+
+### Dislikes
+
+
+### Lessons

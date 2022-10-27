@@ -1,28 +1,87 @@
 +++
 title = "SimplyBe International"
 date = 2015-01-01
-description = "Fully responsive rebuild of the UK website, optimised for Mobile and Tablet devices."
 
 [extra]
+short_description = "New frontend & CMS written in Hybris framework. Fully responsive, documented coding and accessibility standards devised. Frontend built using Bootstrap."
 group = "work"
 released = "Released 2015"
-pills = ["Responsive", "LESS", "Wireframing", "Hybris", "Grunt"]
+pills = ["Responsive", "LESS", "Wireframing", "Bootstrap", "GitLab", "Hybris", "Grunt"]
 +++
 
-Introduction
-In late 2014 the IT department at N Brown Group began a transformation programme called 'Fit4Future' - the largest business transformation the company had ever undertaken. Its aim was to transfer all the old tech that had been powering our websites for decades, and move them to new systems that can truly make Brown a modern digital retailer. The platform that the current website ran on was top on the list for migrating. A new web platform also meant a new frontend - built from scratch. 
-Previously we had separate codebases for desktop, mobile and tablet in order to provide different content to customers optimised to for the viewport they were browsing on. Over the years managing the UI over three codebases inevitably fell out of sync and building new features always took priority. The new frontend would be responsive in order to cater for all viewport widths. It also had to be modular; the UI would be built as fragments and blocks so it could be reused and would mean consistency across the different pages.
+2014 - 2016
 
-Shared codebase across all devices on the Hybris Commerce platform.
+#### Role
+UI / UX Designer
 
-Approach to the design
-Usually our design process would begin with a problem. A teams made up of a cross-section of designers, developers and product owners would come up with some initial sketches of ideas based on budgets and previous experience. These sketches would be documented and this information would form the basis of a mockup which should solve the original problem.
-But with responsive web design we couldn’t do the usual flat mockup designs. We would have endless versions of a design at various viewport sizes, which would all have to be updated if a change was made. It's much better to be able to interact with a design in order to see what works and what does not. Something that works on paper may not work on a small screen. By building our mockups in the browser out of the building blocks of our modular system, we could build quickly and consistency. These designs could then be reviewed by the business on any device and given approval or have changes requested - creating a circular process of design, review and refine.
-Build decisions
-The frontend was built using a customised version of Bootstrap. Like blocks of Lego, Bootstrap is modular and pieces can be reused throughout the codebase. The styling for these blocks also had to customisable across our large set of brands. In order to modularise the CSS and only have styles related a particular brand we used a dynamic stylesheet language which we would build using a JS package runner. The markup was written in LESS. All reusable styles were written as variables so that every brand could have different values so that once compiled the CSS output would be a unique combination different from the other brands.
-We also used the JS task runner to compile out the pages which were made up of the various blocks of UI we’d built. There was an initial time cost to setting all this up, but the time saved once implemented was huge.
-Testing strategy
-Testing was simplified for this project. Because our customer base typically is not as tech-savvy as you typically find for other ecommerce brands, a lot of work would be required to make sure legacy browsers were supported. Making UI display consistently across multiple browser versions was expensive and time consuming. It also limited a design such that new features couldn’t take advantage of new browser capabilities. The Bootstrap framework had been extensively tested and any bugs reported got resolved quickly.
-This didn’t mean we were free from testing. We used browser emulation to test designs before they were developed. For device testing we had our own testing lab that contained a vast array of mobile devices.
+---
+> Shared codebase across all devices on the Hybris Commerce platform.
+---
 
-SimplyBe international has provided a foundation for all our new technologies going forward.
+### Design
+
+The design was incorporated into the construction. Designs were created as interactive HTML files with stub data.
+
+These designs could then be reviewed by the business on any device and approved or modified, resulting in a circular process of design, review, and refinement.
+
+---
+> SimplyBe international has provided a foundation for all our new technologies going forward.
+---
+
+### Build
+
+The frontend was built with a customised version of Bootstrap that is modular and can be reused across the codebase.
+
+To modularize the CSS and have only styles related to a specific brand, we used the LESS stylesheet language, which we built with a JS package runner.
+
+All reusable styles were written as variables so that each brand could have different values and the CSS output would be a unique combination distinct from the other brands once compiled.
+
+We also used the JS task runner to compile the pages made up of the various UI blocks we'd created.
+
+---
+> 'Fit4Future' - the largest business transformation the company had ever undertaken
+---
+
+### Test
+
+For this project, testing was simplified.
+
+Because our customer base is not as tech-savvy as that of other ecommerce brands, it would take a significant amount of effort to ensure that legacy browsers were supported.
+
+It was costly and time consuming to ensure that the UI displayed consistently across multiple browser versions. It also hampered design by preventing new features from taking advantage of new browser capabilities.
+
+The Bootstrap framework had been thoroughly tested, and any bugs that were discovered were quickly resolved.
+
+Before developing designs, we used browser emulation to test them. We had our own testing lab with a wide range of mobile devices for device testing.
+
+---
+> The new frontend would be responsive in order to cater for all viewport widths
+---
+
+### Challenges 
+
+Working with an international agency was difficult. Timezones and code views were less than ideal during video calls.
+
+The agency worked on deadlines, and we relied on them to meet them, which was difficult.
+
+---
+> TODO
+---
+
+### Likes
+
+Working with Boostrap taught us how frameworks are built, which we would apply to our next project.
+
+### Dislikes
+
+Giving code to a third party for integration meant we lost control over the final product.
+
+Because old design habits were applied here, the new website was not very revolutionary.
+
+### Lessons
+
+Diplomacy in collaboration with an agency
+
+Responsive design
+
+Making use of a framework

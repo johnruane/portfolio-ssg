@@ -5,9 +5,9 @@
 <ul>
   {% for page in section.pages %} {% if page.extra.group == "work" %}
   <li>
-    {{ macros::preview(title=page.title, description=page.description,
-    released=page.extra.released, pills=page.extra.pills,
-    permalink=page.permalink) }}
+    {{ macros::preview(title=page.title,
+    shortdescription=page.extra.short_description, released=page.extra.released,
+    pills=page.extra.pills, permalink=page.permalink) }}
   </li>
   {% endif %} {% endfor %}
 </ul>
@@ -15,9 +15,9 @@
 <ul>
   {% for page in section.pages %} {% if page.extra.group == "play" %}
   <li>
-    {{ macros::preview(title=page.title, description=page.description,
-    released=page.extra.released, pills=page.extra.pills,
-    permalink=page.permalink) }}
+    {{ macros::preview(title=page.title,
+    shortdescription=page.extra.short_description, released=page.extra.released,
+    pills=page.extra.pills, permalink=page.permalink) }}
   </li>
   {% endif %} {% endfor %}
 </ul>

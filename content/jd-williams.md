@@ -1,69 +1,104 @@
 +++
-title = "JD Williams"
+title = "Modernise legacy codebase"
 date = 2010-01-01
-description = "Fully responsive rebuild of the UK website, optimised for Mobile and Tablet devices."
 
 [extra]
+short_description = "Modernise the UI, modularise legacy codebase for frequent & reactive updates. Implement fluid design to display better on various screen sizes."
 group = "work"
-released = "Released 2010"
-pills = ["Desktop", "Wireframing", "Prototyping", "UX", "Agile"]
+released = "Released 2011"
+pills = ["Desktop", "Wireframing", "Prototyping", "Usibility testing", "Agile"]
 +++
 
-Role: UI Designer
+2010 - 2013
 
-Responsibilty: The project I cut my professional frontend developer teeth on. Wireframe, prototype, and build (HTML, CSS, JS) new features. Maintain legacy codebase.
+#### Role
+UI / UX Designer
 
-Agile development 6 weeks to 2 weeks
+---
+> Online sales accounted for 20% of total sales in 2005, to 70% in 2010.
+---
+### Design
 
-Fluid design for high resolution monitors
+I was able to focus on an idea thanks to pen and paper sketches.
 
-The N Brown website has been completely transformed since I started in 2005. Running parallel to the other optimisation projects has been a Tactical workstream designed to yield quick functional benefits on a regular basis, rather than a big bang release after a prolonged period of time. Projects that can be conceived, built, tested and released in a short time frame (usually 2 weeks) in order to continually improve the website.
-Recently the Desktop has been undergoing changes to make it more fluid as desktop screen widths become more varied.
+Based on Marketing requirements, I created wireframes and mock-ups in Photoshop.
 
-Online sales increased from 20% in 2005 to 70% in 2010.
+New features may necessitate the testing of prototypes during Usability Testing sessions.
 
-The design
+Axure can be used to create animated user interactions.
 
-Pen & paper sketches allow you to focus on an idea.
+---
+> Fixed width website no longer fit for high resolution monitors and the advent of mobile browsing
+---
 
-Wireframse and Mock-ups done in Photoshop based on Marketing requirements. 
+### Build
 
-New features might warrent prototypes to be tested in Usibility Testing sessions.
+Working with a legacy codebase that is more than ten years old
 
-Axure prototypes for showing animated UI for user interactions.
+Support for legacy browsers is required, which usually entails CSS hacks.
 
-The build
+There are no consistent coding standards.
 
-Legacy codebase over 10 years old
+---
+> Decreased release cycle time: 6 weeks -> 2 weeks
+---
 
-Support required for legacy broswers - usually involved CSS hacks
+### Test
 
-No consistent codding standards.
+Poor testing environments lacked the necessary data to test all scenarios.
 
-Biggest problem was CSS cascade
+Stub data was typically required for local development.
 
-Tools used: Dreamweaver
+Virtual machines and browser emulation plugins
 
-No concept of a Design System or modular components.
+Due to an elderly, non-tech savvy customer base, browsers were slow to be updated, resulting in extended legacy support.
 
-Working with JSP pages
+Customers made a large number of sales while using work computers. Companies such as the NHS restrict system upgrades, so operating systems and browsers are rarely updated.
 
-The build process for desktop could go down one of two routes: for small projects I would make the markup/css changes in the existing files whilst running a local build of the code on my machine, for larger projects I would build these pages using an editor such as Dreamweaver and then collaborate with a Java developer to integrate this into the codebase (usually) in the form of JSP pages.
-The biggest challenge was working with code that was first developed in 1999. It had gone through 3rd party developers and many in-house developers - it was a spaghetti code in places. The concept of modular: modules, components & reusability were not as prevalent as they are now so the code grew with little planning and foresight of the wider whole. The code became very fragile and was easily broken.
+Because the business is slow to accept browser style differences, many nitpicky bugs have been raised.
 
-Testing
+---
+> Codebase shared with 15+ brands.
+---
 
-Poor testing environments lacked data for testing all scenarios
+### Challenges 
 
-Local development usually made extensive use of stub data
+CSS style clashes
 
-Browser emulation plugins & virtual machines
+CSS and JS'magic numbers'
 
-Aged non-tech savvy customerbase meant browsers were slow to be updated.
+There is no code consistency.
 
-Business slow to accept browser style differences so testing was nit-picky
+The spaghetti code
 
-Because we usually ran a copy of the website on a local server we were able to test any work we did with stub data. Browser support was extensive due to the many versions used by our customers whom a large percentage seldom updated their computers. For a long time we would be including browser specific hacks or css work arounds in order to get the display the same on every browser. Thankfully these days its given that there may be small differences between browsers, and that these differences are not an issue worth resolving.
-Most browsers now have the ability emulate various devices and legacy versions. If you want to 100% test something though then there is no substitute to actually using that device or legacy browser - for this I use virtual machines.
+Easy to break something.
 
-In some form or other, I've been working on the desktop website since I started in 2005.
+---
+> Looking back it was a bit of a wild west in terms of standards and consistency. JS, especially, lacked any authroity. No thought was given to adding a bit of animation here or a plugin there.
+---
+
+### Likes
+
+Developing concepts into functional components
+
+Working as part of a group. Learning from your peers
+
+The project where I honed my frontend skills
+
+### Dislikes
+
+There is no notion of a Design System or modular components.
+
+Legacy support was aggravating.
+
+Business was slow to adopt new methods of operation; old habits die hard.
+
+Requirements are frequently presented in the form of "Can you make it look like [competitor's] website?"
+
+### Lessons
+
+Solid knowledge of HTML and CSS
+
+How to present new features from the design stage to prototypes
+
+In-person courses on UX, Scrum, and advanced Javascript were taken.

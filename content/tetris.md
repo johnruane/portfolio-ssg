@@ -1,9 +1,9 @@
 +++
 title = "Tetris"
 date = 2019-11-30
-description = "Tetris description"
 
 [extra]
+short_description = ["Tetris description"]
 group = "play"
 released = "Released 2020"
 pills = ["Responsive", "Prototyping", "Hybris", "Agile"]
