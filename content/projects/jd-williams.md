@@ -1,17 +1,15 @@
 +++
-title = "Modernise legacy codebase"
+title = "UI modernization & fluid design integration"
 date = 2010-01-01
 
 [extra]
 short_description = "Modernise the UI, modularise legacy codebase for frequent & reactive updates. Implement fluid design to display better on various screen sizes."
 group = "work"
-released = "Released 2011"
+released = "2011"
+role = "UI Developer"
 pills = ["Desktop", "Wireframing", "Prototyping", "Usibility testing", "Agile"]
 +++
 
-2010 - 2013
-
-#### Role
 UI / UX Designer
 
 ---

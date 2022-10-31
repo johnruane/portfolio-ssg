@@ -1,0 +1,12 @@
+{% macro preview(title, role, shortdescription, released, pills, permalink) %}
+<h3>{{ title }}</h3>
+<p>{{ role }}</p>
+<p>{{ released }}</p>
+<p>{{shortdescription}}</p>
+<div>
+  {% for pill in pills %}
+  <span>{{pill}} {% if loop.index != pills | length %} / {% endif %}</span> {%
+  endfor %}
+</div>
+<a href="{{ permalink | safe }}">Read more</a>
+{% endmacro preview %}

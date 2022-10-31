@@ -1,17 +1,9 @@
+{% import "macros/head.html" as macros_head %}
 <!DOCTYPE html>
 <html lang="en">
+  {{ macros_head::head() }}
 
-<head>
-  <meta charset="utf-8">
-  <title>MyBlog</title>
-</head>
-
-<body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock %}
-    </div>
-  </section>
-</body>
-
+  <body>
+    <div class="container">{% block content %} {% endblock %}</div>
+  </body>
 </html>

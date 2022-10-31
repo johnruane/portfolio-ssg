@@ -1,18 +1,14 @@
 +++
-title = "SimplyBe International"
+title = "Hybris integration & internationalisation"
 date = 2015-01-01
 
 [extra]
 short_description = "New frontend & CMS written in Hybris framework. Fully responsive, documented coding and accessibility standards devised. Frontend built using Bootstrap."
 group = "work"
-released = "Released 2015"
+released = "2015"
+role = "Senior UI / UX Developer"
 pills = ["Responsive", "LESS", "Wireframing", "Bootstrap", "GitLab", "Hybris", "Grunt"]
 +++
-
-2014 - 2016
-
-#### Role
-UI / UX Designer
 
 ---
 > Shared codebase across all devices on the Hybris Commerce platform.

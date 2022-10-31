@@ -1,18 +1,14 @@
 +++
-title = "SimplyBe"
+title = "Tablet devive optimisation"
 date = 2013-01-01
 
 [extra]
 short_description = "New adaptive frontend rebuild with focus on improving user experience, modularising codebase & adhering to coding & accessibility standards."
 group = "work"
-released = "Released 2015"
+released = "2015"
+role = "UI / UX Developer"
 pills = ["Tablet", "Adaptive", "UX", "Wireframing", "Card sorting", "Focus groups", "User profiling", "Agile"]
 +++
-
-2014 - 2016
-
-#### Role
-UI / UX Designer
 
 ---
 > Traffic on Tablet devices accounted for 66% of online sales.

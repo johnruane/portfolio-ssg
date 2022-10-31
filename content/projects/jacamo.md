@@ -1,18 +1,14 @@
 +++
-title = "Jacamo"
+title = "Mobile device optimisation"
 date = 2013-01-01
 
 [extra]
 short_description = "Full rebuild of frontend for mobile devices, focusing on improving user experience through UI standards."
 group = "work"
-released = "Released 2014"
+released = "2014"
+role = "UI / UX Developer"
 pills = ["Mobile", "Adaptive", "UX", "Prototyping", "Wireframing",  "Card sorting", "Focus groups", "Usability testing"]
 +++
-
-2013 - 2015
-
-#### Role
-UI / UX Designer
 
 ---
 > Mobile optimisation increased conversions from 2% to 8%. 
