@@ -10,11 +10,14 @@ role = "UI Developer"
 pills = ["Desktop", "Wireframing", "Prototyping", "Usibility testing", "Agile"]
 +++
 
-UI / UX Designer
+UI / UX Designer test
 
 ---
+
 > Online sales accounted for 20% of total sales in 2005, to 70% in 2010.
+
 ---
+
 ### Design
 
 I was able to focus on an idea thanks to pen and paper sketches.
@@ -26,7 +29,9 @@ New features may necessitate the testing of prototypes during Usability Testing 
 Axure can be used to create animated user interactions.
 
 ---
+
 > Fixed width website no longer fit for high resolution monitors and the advent of mobile browsing
+
 ---
 
 ### Build
@@ -38,7 +43,9 @@ Support for legacy browsers is required, which usually entails CSS hacks.
 There are no consistent coding standards.
 
 ---
+
 > Decreased release cycle time: 6 weeks -> 2 weeks
+
 ---
 
 ### Test
@@ -56,10 +63,12 @@ Customers made a large number of sales while using work computers. Companies suc
 Because the business is slow to accept browser style differences, many nitpicky bugs have been raised.
 
 ---
+
 > Codebase shared with 15+ brands.
+
 ---
 
-### Challenges 
+### Challenges
 
 CSS style clashes
 
@@ -72,7 +81,9 @@ The spaghetti code
 Easy to break something.
 
 ---
+
 > Looking back it was a bit of a wild west in terms of standards and consistency. JS, especially, lacked any authroity. No thought was given to adding a bit of animation here or a plugin there.
+
 ---
 
 ### Likes
